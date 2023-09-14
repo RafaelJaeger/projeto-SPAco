@@ -113,6 +113,7 @@ footer {
     background-color: #77503fde;
     color: white;
     text-align: center;
-    font-family: sans-serif;
+    font-family: var(--fonte2);
+    font-size: 1.3em;
     padding: 10px;
 }
