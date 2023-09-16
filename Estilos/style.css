@@ -39,7 +39,7 @@ header > h1 {
     color: #08eb08;
     padding-top: 50px;
     font-family: var(--fonte3);
-    font-size: 3.5em;
+    font-size: 5em;
     text-shadow: 1px 1px 1px white;
 }
 
@@ -114,6 +114,6 @@ footer {
     color: white;
     text-align: center;
     font-family: var(--fonte2);
-    font-size: 1.3em;
-    padding: 10px;
+    font-size: 1em;
+    padding: 6px;
 }
