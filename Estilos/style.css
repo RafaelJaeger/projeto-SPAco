@@ -81,13 +81,27 @@ section > h2 {
 }
 
 section#format {
-    margin-top: 120px;
-    margin-bottom: 120px;
+    margin-top: 100px;
+    margin-bottom: 100px;
     padding: 20px;
 }
 
 section#loc {
-    height: 10px;
+    margin-top: 100px;
+    margin-bottom: 25px;
+    padding: 20px;
+}
+
+section#estr {
+    margin-top: 25px;
+    margin-bottom: 100px;
+    padding: 20px;
+}
+
+section#comod {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 20px;
 }
 
 section.texto > h2 {
@@ -132,13 +146,67 @@ section#img05 {
     background-position: center;
 }
 
+section#galer {
+    padding-bottom: 20px;
+}
+
+section#galer > h2 {
+    margin-top: 25px;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+
+section#galer > section#glr01 {
+    background-image: url(../Imagens/Pscina\ e\ Pátio.jpeg);
+    height: 200px;
+    background-size: cover;
+    background-position: top;
+    margin-bottom: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.7);
+}
+
+section#galer > section#glr02 {
+    background-image: url(../Imagens/Primeiro\ andar.jpeg);
+    height: 200px;
+    background-size: cover;
+    background-position: top;
+    margin-bottom: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.7);
+}
+
+section#galer > section#glr03 {
+    background-image: url(../Imagens/Pscina.jpeg);
+    height: 200px;
+    background-size: cover;
+    background-position: top;
+    margin-bottom: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.7);
+}
+
+section#galer > section#glr04 {
+    background-image: url(../Imagens/Quarto\ Casal.jpeg);
+    height: 200px;
+    background-size: cover;
+    background-position: top;
+    margin-bottom: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.7);
+}
+
+section#galer > section#glr05 {
+    background-image: url(../Imagens/Quiosque.jpeg);
+    height: 200px;
+    background-size: cover;
+    background-position: top;
+    border: 2px solid rgba(0, 0, 0, 0.7);
+}
+
 footer {
     background-color: #77503fde;
     color: white;
     text-align: center;
     font-family: var(--fonte2);
     font-size: 1em;
-    padding: 6px;
+    padding: 5px;
 }
 
 footer a {
