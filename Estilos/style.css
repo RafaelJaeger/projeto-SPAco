@@ -38,7 +38,7 @@ section.link {
 
 section.link img {
     margin: 2px;
-    width: 30px;
+    width: 37px;
     border-radius: 50%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.822);
 }
@@ -126,7 +126,7 @@ section.imagem {
 }
 
 section#img01 {
-    background-image: url(../Imagens/Casinha\ no\ açude\.jpeg);
+    background-image: url(../Imagens/Cabana\ 4.jpeg);
     background-position: center;
 }
 
