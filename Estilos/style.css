@@ -26,7 +26,22 @@
 
 body, html {
     min-height: 100vh;
-    background-color:  white;
+    background-image: url(../Imagens/Fundo\ Palet.jpeg);
+}
+
+#bfixo img {
+    position: fixed;
+    bottom: 7px;
+    right: 7px;
+    margin: 2px;
+    width: 33px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.822);
+}
+
+#bfixo img:hover {
+    width: 38px;
+    box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.822);
 }
 
 section.link {
@@ -37,10 +52,16 @@ section.link {
 }
 
 section.link img {
-    margin: 2px;
-    width: 37px;
+    margin: 2.5px;
+    width: 30px;
     border-radius: 50%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.822);
+}
+
+section.link img:hover {
+    margin: 0px;
+    width: 35px;
+    box-shadow: 2px 2px 5px white;
 }
 
 header {
@@ -78,10 +99,6 @@ section {
 
 section > h2 {
     padding-bottom: 15px;
-}
-
-body {
-    background-image: url(../Imagens/Fundo\ Palet.jpeg);
 }
 
 section#format {
@@ -221,5 +238,9 @@ footer {
 footer a {
     color: #08d808;
     text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.192);
-    text-decoration: none;
+    text-decoration:
+}
+
+footer a:hover {
+    text-shadow: 0px 0px 3px rgba(255, 255, 255, 0.322);
 }
