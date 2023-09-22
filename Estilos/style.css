@@ -34,13 +34,13 @@ body, html {
     bottom: 7px;
     right: 7px;
     margin: 2px;
-    width: 35px;
+    width: 50px;
     border-radius: 50%;
     box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.822);
 }
 
 #bfixo img:hover {
-    width: 40px;
+    width: 55px;
     box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.822);
 }
 
@@ -66,16 +66,20 @@ section.link img:hover {
 
 header {
     box-shadow: inset 3px 3px 7px rgba(0, 0, 0, 0.4);
-    background-image: linear-gradient(100deg, #492d20, rgb(134, 93, 74));
+    background-image: url(../Imagens/Casinha\ no\ açude.jpeg);
+    background-size: cover;
     text-align: center;
+    height: 100vh;
 }
 
 header > h1 {
     padding: 10px;
+    padding-top: 45px;
     color: #08eb08;
     font-family: var(--fonte3);
     font-size: 4.5em;
     text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.616);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 header > p {
@@ -86,6 +90,7 @@ header > p {
     font-family: var(--fonte2);
     font-size: 1.3em;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.61);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 section {
@@ -150,12 +155,6 @@ section.imagem {
     background-attachment: fixed;
     height: 30vh;
 }
-
-section#img01 {
-    background-image: url(../Imagens/Cabana\ 4.jpeg);
-    background-position: center;
-}
-
 section#img02 {
     background-image: url(../Imagens/Pátio.jpeg);
     background-position: center;
