@@ -34,13 +34,13 @@ body, html {
     bottom: 7px;
     right: 7px;
     margin: 2px;
-    width: 33px;
+    width: 35px;
     border-radius: 50%;
     box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.822);
 }
 
 #bfixo img:hover {
-    width: 38px;
+    width: 40px;
     box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.822);
 }
 
@@ -238,7 +238,6 @@ footer {
 footer a {
     color: #08d808;
     text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.192);
-    text-decoration:
 }
 
 footer a:hover {
