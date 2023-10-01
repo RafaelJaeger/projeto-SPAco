@@ -7,9 +7,31 @@ Grandes telas: 1201px +
 */
 
 @media screen and (min-width: 768px) {
-    section#img01 {
-        background-image: url(../Imagens/Casinha\ no\ açude\ \(longe\).jpeg);
+    main {
+        width: 76vw;
+        display: block;
+        margin: 0 auto;
+        box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.705);
+    }
+
+    header {
+        background-image: url(../Imagens/Caban\ Açude.jpeg);
         background-position: center center;
+
+    }
+
+    .conteudo {
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+
+    .conteudo > h1 {
+        font-size: 7.5em;
+    }
+    
+    .conteudo > p {
+        font-size: 2.5em;
+        padding-left: 100px;
+        padding-right: 100px;
     }
 
     #bfixo img {
@@ -23,27 +45,7 @@ Grandes telas: 1201px +
     }
     
     #bfixo img:hover {
-        width: 55px;
+        width: 80px;
         box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.822);
-    }
-
-    section#galer > section#glr01 {
-        width: 40%;
-    }
-
-    section#galer > section#glr02 {
-        width: 40%;
-    }
-
-    section#galer > section#glr03 {
-        width: 40%;
-    }
-
-    section#galer > section#glr04 {
-        width: 40%;
-    }
-
-    section#galer > section#glr05 {
-        width: 40%;
     }
 }

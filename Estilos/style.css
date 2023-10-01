@@ -26,7 +26,11 @@
 
 body, html {
     min-height: 100vh;
-    background-image: url(../Imagens/Fundo\ Palet.jpeg);
+    background-color: #d2b48c6e;
+}
+
+main {
+    background-color: white;
 }
 
 #bfixo img {
@@ -72,17 +76,21 @@ header {
     height: 100vh;
 }
 
-header > h1 {
+.conteudo {
+    background-color: rgba(0, 0, 0, 0.699);
+    height: 100vh;
+}
+
+.conteudo > h1 {
     padding: 10px;
     padding-top: 45px;
     color: #08eb08;
     font-family: var(--fonte3);
-    font-size: 4.5em;
+    font-size: 4.7em;
     text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.616);
-    background-color: rgba(0, 0, 0, 0.7);
 }
 
-header > p {
+.conteudo > p {
     padding-bottom: 30px;
     padding-left: 20px;
     padding-right: 20px;
@@ -90,7 +98,6 @@ header > p {
     font-family: var(--fonte2);
     font-size: 1.3em;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.61);
-    background-color: rgba(0, 0, 0, 0.7);
 }
 
 section {
@@ -107,9 +114,9 @@ section > h2 {
 }
 
 section#format {
-    margin-top: 100px;
-    margin-bottom: 100px;
-    padding: 20px;
+    padding: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 section#loc {
@@ -147,82 +154,55 @@ section.texto > ul {
     list-style-type: none;
 }
 
-section.imagem {
+.imagem {
     background-color: black;
     color: white;
     background-size: cover;
-    box-shadow: inset 3px 5px 8px rgba(0, 0, 0, 0.575);
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.61);
     background-attachment: fixed;
-    height: 30vh;
+    height: 70vh;
 }
-section#img02 {
+#img02 {
     background-image: url(../Imagens/Pátio.jpeg);
     background-position: center;
 }
 
-section#img04 {
+#img04 {
     background-image: url(../Imagens/Ambiente\ de\ Camas.jpeg);
     background-position: center;
     
 }
 
-section#img05 {
+#img05 {
     background-image: url(../Imagens/Pscina\ vista\ do\ açude.jpeg);
     background-position: center;
 }
 
-section#galer {
-    padding-bottom: 20px;
+.galeria-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2vw;
+    padding: 0 1vw;
 }
 
-section#galer > h2 {
-    margin-top: 25px;
-    margin-bottom: 50px;
-    padding: 10px;
+.galeria-itens {
+    width: 350px;
+    height: 300px;
+    border: 10px solid white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.555);
+    flex-grow: 1;
+    transition: transform .1s linear;
 }
 
-section#galer > section#glr01 {
-    background-image: url(../Imagens/Pscina\ e\ Pátio.jpeg);
-    height: 200px;
-    background-size: cover;
-    background-position: top;
-    margin-bottom: 20px;
-    border: 2px solid rgba(0, 0, 0, 0.7);
+.galeria-itens:hover {
+    transform: scale(1.2);
 }
 
-section#galer > section#glr02 {
-    background-image: url(../Imagens/Primeiro\ andar.jpeg);
-    height: 200px;
-    background-size: cover;
-    background-position: top;
-    margin-bottom: 20px;
-    border: 2px solid rgba(0, 0, 0, 0.7);
-}
-
-section#galer > section#glr03 {
-    background-image: url(../Imagens/Pscina.jpeg);
-    height: 200px;
-    background-size: cover;
-    background-position: top;
-    margin-bottom: 20px;
-    border: 2px solid rgba(0, 0, 0, 0.7);
-}
-
-section#galer > section#glr04 {
-    background-image: url(../Imagens/Quarto\ Casal.jpeg);
-    height: 200px;
-    background-size: cover;
-    background-position: top;
-    margin-bottom: 20px;
-    border: 2px solid rgba(0, 0, 0, 0.7);
-}
-
-section#galer > section#glr05 {
-    background-image: url(../Imagens/Quiosque.jpeg);
-    height: 200px;
-    background-size: cover;
-    background-position: top;
-    border: 2px solid rgba(0, 0, 0, 0.7);
+.galeria-itens img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 footer {
