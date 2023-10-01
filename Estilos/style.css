@@ -187,8 +187,8 @@ section.texto > ul {
 }
 
 .galeria-itens {
-    width: 350px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     border: 10px solid white;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.555);
     flex-grow: 1;
