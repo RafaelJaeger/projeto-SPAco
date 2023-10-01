@@ -30,7 +30,7 @@ body, html {
 }
 
 main {
-    background-color: white;
+    background-color: #8efc8ead;
 }
 
 #bfixo img {
@@ -52,7 +52,7 @@ section.link {
     padding: 0px;
     margin: 0px;
     text-align: left;
-    background-color: #d2b48cc7;
+    background-color: #d2b48cc4;
 }
 
 section.link img {
@@ -115,14 +115,14 @@ section > h2 {
 
 section#format {
     padding: 100px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 section#loc {
     margin-top: 100px;
     margin-bottom: 25px;
-    padding: 20px;
+    padding: 30px;
 }
 
 section.iframe > iframe {
@@ -132,19 +132,19 @@ section.iframe > iframe {
 section#estr {
     margin-top: 25px;
     margin-bottom: 100px;
-    padding: 20px;
+    padding: 30px;
 }
 
 section#comod {
     margin-top: 100px;
     margin-bottom: 100px;
-    padding: 20px;
+    padding: 30px;
 }
 
 section.texto > h2 {
     font-family: var(--fonte2);
     font-size: 2em;
-    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.479);
+    text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.384);
 }
 
 section.texto > ul {
@@ -168,7 +168,7 @@ section.texto > ul {
 }
 
 #img04 {
-    background-image: url(../Imagens/Ambiente\ de\ Camas.jpeg);
+    background-image: url(../Imagens/761C14E3-1A0B-4310-B51A-895095F5A103.jpeg);
     background-position: center;
     
 }
