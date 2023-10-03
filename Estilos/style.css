@@ -183,12 +183,12 @@ section.texto > ul {
     flex-wrap: wrap;
     justify-content: space-evenly;
     gap: 2vw;
-    padding: 0 1vw;
+    padding: 0 4vw;
 }
 
 .galeria-itens {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     border: 10px solid white;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.555);
     flex-grow: 1;
@@ -196,7 +196,7 @@ section.texto > ul {
 }
 
 .galeria-itens:hover {
-    transform: scale(1.2);
+    transform: scale(1.05);
 }
 
 .galeria-itens img {
