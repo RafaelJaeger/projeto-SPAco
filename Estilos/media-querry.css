@@ -6,7 +6,23 @@ Desktop: 993px até 1200px
 Grandes telas: 1201px +
 */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 600px) and (max-width: 991px){
+    .conteudo {
+        background-color: rgba(0, 0, 0, 0.432);
+    }
+
+    .conteudo > h1 {
+        font-size: 5em;
+    }
+    
+    .conteudo > p {
+        font-size: 2em;
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+}
+
+@media screen and (min-width: 992px) {
     main {
         width: 76vw;
         display: block;
