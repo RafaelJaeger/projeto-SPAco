@@ -160,15 +160,16 @@ section.texto > ul {
     background-size: cover;
     box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.61);
     background-attachment: fixed;
-    height: 70vh;
+    height: 50vh;
 }
+
 #img02 {
     background-image: url(../Imagens/gramado.jpeg);
     background-position: center;
 }
 
 #img04 {
-    background-image: url(../Imagens/761C14E3-1A0B-4310-B51A-895095F5A103.jpeg);
+    background-image: url(../Imagens/D32C4E7F-1CC7-435B-B56B-14898265EFDC.jpeg);
     background-position: center;
 }
 
