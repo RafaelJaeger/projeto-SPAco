@@ -212,6 +212,8 @@ footer {
     font-family: var(--fonte2);
     font-size: 1em;
     padding: 5px;
+    padding-top: 10px;
+    height: 40px;
 }
 
 footer a {
