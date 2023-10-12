@@ -48,21 +48,21 @@ main {
     box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.822);
 }
 
-section.link {
+.link {
     padding: 0px;
     margin: 0px;
     text-align: left;
     background-color: #d2b48cc4;
 }
 
-section.link img {
+.link img {
     margin: 2.5px;
     width: 30px;
     border-radius: 50%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.822);
 }
 
-section.link img:hover {
+.link img:hover {
     margin: 0px;
     width: 35px;
     box-shadow: 2px 2px 5px white;
@@ -113,41 +113,41 @@ section > h2 {
     padding-bottom: 15px;
 }
 
-section#format {
+#format {
     padding: 100px;
     padding-left: 30px;
     padding-right: 30px;
 }
 
-section#loc {
+#loc {
     margin-top: 100px;
     margin-bottom: 25px;
     padding: 30px;
 }
 
-section.iframe > iframe {
+.iframe > iframe {
     border: 2px solid rgba(0, 0, 0, 0.644);
 }
 
-section#estr {
+#estr {
     margin-top: 25px;
     margin-bottom: 100px;
     padding: 30px;
 }
 
-section#comod {
+#comod {
     margin-top: 100px;
     margin-bottom: 100px;
     padding: 30px;
 }
 
-section.texto > h2 {
+.texto > h2 {
     font-family: var(--fonte2);
     font-size: 2em;
     text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.384);
 }
 
-section.texto > ul {
+.texto > ul {
     font-family: var(--fonte2);
     color: rgba(0, 0, 0, 0.904);
     font-size: 1.5em;
