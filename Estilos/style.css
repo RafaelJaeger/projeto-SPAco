@@ -155,27 +155,27 @@ section > h2 {
 }
 
 .imagem {
-    background-color: black;
-    color: white;
-    background-size: cover;
-    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.61);
-    background-attachment: fixed;
-    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#img02 {
-    background-image: url(../Imagens/gramado.jpeg);
-    background-position: center;
+#img01 > img {
+    width: 95vw;
+    border: 4px solid white;
+    box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.692);
 }
 
-#img04 {
-    background-image: url(../Imagens/D32C4E7F-1CC7-435B-B56B-14898265EFDC.jpeg);
-    background-position: center;
+#img02 > img {
+    width: 80vw;
+    border: 4px solid white;
+    box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.692);
 }
 
-#img05 {
-    background-image: url(../Imagens/exteriorpatio.jpeg);
-    background-position: center;
+#img03 > img {
+    width: 95vw;
+    border: 4px solid white;
+    box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.692);
 }
 
 .galeria-container {

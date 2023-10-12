@@ -7,6 +7,7 @@ Grandes telas: 1201px +
 */
 
 @media screen and (min-width: 600px) and (max-width: 991px){
+
     .conteudo {
         background-color: rgba(0, 0, 0, 0.432);
     }
@@ -19,6 +20,10 @@ Grandes telas: 1201px +
         font-size: 2em;
         padding-left: 70px;
         padding-right: 70px;
+    }
+
+    #img02 > img {
+        height: 70vh;
     }
 }
 
@@ -66,5 +71,17 @@ Grandes telas: 1201px +
 
     .texto {
         font-size: 1.2em;
+    }
+
+    #img01 > img {
+        width: 75vw;
+    }
+
+    #img02 > img {
+        width: 60vw;
+    }
+
+    #img03 > img {
+        width: 75vw;
     }
 }
