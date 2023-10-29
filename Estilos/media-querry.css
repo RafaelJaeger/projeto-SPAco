@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+/*
+Tablet: 768px até 992px
+Desktop: 993px até 1200px
+Grandes telas: 1201px +
+*/
+
+@media screen and (min-width: 600px) and (max-width: 991px){
+
+    .conteudo {
+        background-color: rgba(0, 0, 0, 0.432);
+    }
+
+    .conteudo > h1 {
+        font-size: 5em;
+    }
+    
+    .conteudo > p {
+        font-size: 2em;
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+    #img02 > img {
+        height: 70vh;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    main {
+        width: 76vw;
+        display: block;
+        margin: 0 auto;
+        box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.705);
+    }
+
+    header {
+        background-image: url(../Imagens/cabanamaior.jpeg);
+        background-position: center center;
+    }
+
+    .conteudo {
+        background-color: rgba(0, 0, 0, 0.432);
+    }
+
+    .conteudo > h1 {
+        font-size: 7.5em;
+    }
+    
+    .conteudo > p {
+        font-size: 2.5em;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    #bfixo img {
+        position: fixed;
+        bottom: 7px;
+        right: 7px;
+        margin: 2px;
+        width: 70px;
+        border-radius: 50%;
+        box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.822);
+    }
+    
+    #bfixo img:hover {
+        width: 80px;
+        box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.822);
+    }
+
+    .texto {
+        font-size: 1.2em;
+    }
+
+    #img01 > img {
+        width: 75vw;
+    }
+
+    #img02 > img {
+        width: 60vw;
+    }
+
+    #img03 > img {
+        width: 75vw;
+    }
+}
