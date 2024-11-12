@@ -91,7 +91,7 @@ header {
     padding-right: 20px;
     color: white;
     font-family: var(--fonte2);
-    font-size: 1.5em;
+    font-size: 1.2em;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.61);
 }
 
@@ -103,8 +103,8 @@ header {
 }
 
 .galeria-itens-header {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border: 2px solid white;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.555);
     flex-grow: 0.5;
