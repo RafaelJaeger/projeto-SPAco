@@ -64,6 +64,7 @@ body, html {
 } */
 
 header {
+    height: 100vh;
     background-color: #d2b48cc4;
     text-align: center;
 }
@@ -73,11 +74,11 @@ header {
 }
 
 .conteudo > h1 {
-    padding: 10px;
+    padding: 20px;
     padding-top: 20px;
     color: #2AAD2A;
     font-family: var(--fonte3);
-    font-size: 2.5em;
+    font-size: 2.8em;
     text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.7);
 }
 
@@ -87,7 +88,7 @@ header {
     padding-right: 20px;
     color: white;
     font-family: var(--fonte2);
-    font-size: 1.3em;
+    font-size: 1.2em;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);
 }
 
