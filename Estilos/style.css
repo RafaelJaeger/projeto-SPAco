@@ -116,9 +116,8 @@ section > h2 {
     margin-bottom: 10px;
 }
 
-section p {
-    text-align: left;
-    text-indent: ju;
+section > p {
+    text-align: center;
 }
 
 #estrutura > h2 {
@@ -183,7 +182,7 @@ section p {
 .slide > img {
     width: 90vw;
     height: 45vh;
-    background-size: contain;
+    object-fit: cover;
 }
 
 .manual-navigation {
@@ -263,26 +262,18 @@ section p {
     margin-top: 35px;
     background-color: #98fb988f;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.486);
-    padding-top: 100px;
-    padding: 30px;
-    border-radius: 10px;
+    padding: 20px;
+    border-radius: 20px;
 }
 
-.iframe > iframe {
+.iframe-localizacao > iframe {
     margin-top: 20px;
-    border: 2px solid rgba(0, 0, 0, 0.644);
+    border: 2px solid white;
 }
 
-#estr {
-    margin-top: 25px;
-    margin-bottom: 100px;
-    padding: 30px;
-}
-
-#comod {
-    margin-top: 100px;
-    margin-bottom: 100px;
-    padding: 30px;
+#comodidades {
+    margin-top: 35px;
+    padding: 20px;
 }
 
 .info > h2 {
@@ -298,28 +289,12 @@ section p {
     list-style-type: none;
 }
 
-.imagem {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#img01 > img {
-    width: 95vw;
-    border: 4px solid white;
-    box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.692);
-}
-
-#img02 > img {
-    width: 80vw;
-    border: 4px solid white;
-    box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.692);
-}
-
-#img03 > img {
-    width: 95vw;
-    border: 4px solid white;
-    box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.692);
+#galeria-imagens {
+    margin-top: 35px;
+    background-color: #98fb988f;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.486);
+    padding: 20px;
+    border-radius: 20px;
 }
 
 .galeria-container {
@@ -331,10 +306,10 @@ section p {
 }
 
 .galeria-itens {
-    width: 200px;
+    width: 35vw;
     height: 200px;
-    border: 10px solid white;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.555);
+    border: 2px solid white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.555);
     flex-grow: 1;
     transition: transform .1s linear;
 }
@@ -350,14 +325,14 @@ section p {
 }
 
 footer {
+    margin-top: 10px;
     background-color: #77503fde;
     color: white;
     text-align: center;
     font-family: var(--fonte2);
     font-size: 1em;
     padding: 5px;
-    padding-top: 10px;
-    height: 40px;
+    height: 10vh;
 }
 
 footer a {
