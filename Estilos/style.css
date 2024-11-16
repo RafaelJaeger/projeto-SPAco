@@ -67,6 +67,8 @@ header {
     height: 100vh;
     background-color: #d2b48cc4;
     text-align: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.35);
+    border-radius: 0 0 10px 10px;
 }
 
 .conteudo {
@@ -109,17 +111,18 @@ header {
     flex-grow: 0.5;
 }
 
-section {
-    padding-top: 5vh;
-    padding-bottom: 5vh;
-    padding-left: 7px;
-    padding-right: 7px;
-    line-height: 1.5em;
+section > h2 {
     text-align: center;
+    margin-bottom: 10px;
 }
 
-section > h2 {
-    padding-bottom: 15px;
+section p {
+    text-align: left;
+    text-indent: ju;
+}
+
+#estrutura > h2 {
+    margin-top: 20px;
 }
 
 .slider {
@@ -147,7 +150,7 @@ section > h2 {
 }
 
 .slide h1 {
-    margin: calc(40vh / 2.3) 10px;
+    margin: calc(40vh / 2.4) 10px;
     position: absolute;
     color: white;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
@@ -256,19 +259,17 @@ section > h2 {
     background-color: #fff;
 }
 
-#format {
-    padding: 100px;
-    padding-left: 30px;
-    padding-right: 30px;
-}
-
-#loc {
-    background-color: #98FB98;
+#localizacao {
+    margin-top: 35px;
+    background-color: #98fb988f;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.486);
     padding-top: 100px;
     padding: 30px;
+    border-radius: 10px;
 }
 
 .iframe > iframe {
+    margin-top: 20px;
     border: 2px solid rgba(0, 0, 0, 0.644);
 }
 
