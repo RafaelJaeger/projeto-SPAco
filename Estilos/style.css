@@ -110,8 +110,8 @@ header {
 }
 
 section {
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
     padding-left: 7px;
     padding-right: 7px;
     line-height: 1.5em;
@@ -124,7 +124,7 @@ section > h2 {
 
 .slider {
     margin: 0 auto;
-    width: 800px;
+    width: 90vw;
     height: 400px;
     overflow: hidden;
 }
@@ -142,16 +142,46 @@ section > h2 {
 .slide {
     width: 25%;
     position: relative;
+    transition: 2s;
 }
 
-.slide img {
-    width: 800px;
+.slide h1 {
+    margin: 180px 10px;
+    position: absolute;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
+.slide button {
+    margin: 210px 10px;
+    position: absolute;
+    width: 110px;
+    height: 25px;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.slide button:hover {
+    color: white;
+    background-color: #ffffff00;
+    border: 2px solid white;
+    transition: 0.5s ease-in-out;
+}
+
+
+.slide > img {
+    width: 90vw;
+    background-size: cover;
 }
 
 .manual-navigation {
     position: absolute;
-    width: 800px;
-    margin-top: -40px;
+    width: 90vw;
+    margin-top: -25px;
     display: flex;
     justify-content: center;
 }
@@ -198,8 +228,8 @@ section > h2 {
 
 .navigation-auto {
     position: absolute;
-    width: 800px;
-    margin-top: 360px;
+    width: 90vw;
+    margin-top: 375px;
     display: flex;
     justify-content: center;
 }
@@ -209,6 +239,15 @@ section > h2 {
 }
 
 #radio1:checked ~ .navigation-auto .auto-btn1 {
+    background-color: #fff;
+}
+#radio2:checked ~ .navigation-auto .auto-btn2 {
+    background-color: #fff;
+}
+#radio3:checked ~ .navigation-auto .auto-btn3 {
+    background-color: #fff;
+}
+#radio4:checked ~ .navigation-auto .auto-btn4 {
     background-color: #fff;
 }
 
@@ -240,13 +279,13 @@ section > h2 {
     padding: 30px;
 }
 
-.texto > h2 {
+.info > h2 {
     font-family: var(--fonte2);
     font-size: 2em;
     text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.384);
 }
 
-.texto > ul {
+.info > ul {
     font-family: var(--fonte2);
     color: rgba(0, 0, 0, 0.904);
     font-size: 1.5em;
