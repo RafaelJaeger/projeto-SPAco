@@ -123,6 +123,7 @@ section > h2 {
 }
 
 .slider {
+    border: 2px solid black;
     margin: 0 auto;
     width: 90vw;
     height: 400px;
@@ -149,7 +150,8 @@ section > h2 {
     margin: 180px 10px;
     position: absolute;
     color: white;
-    text-shadow: 2px 2px 5px black;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
 }
 
 .slide button {
@@ -167,9 +169,11 @@ section > h2 {
 
 .slide button:hover {
     color: white;
+    text-shadow: 2px 2px 5px black;
+    font-size: 90%;
     background-color: #ffffff00;
     border: 2px solid white;
-    transition: 0.5s ease-in-out;
+    transition: 0.4s ease-in-out;
 }
 
 
