@@ -68,7 +68,7 @@ header {
     background-color: #d2b48cc4;
     text-align: center;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.35);
-    border-radius: 0 0 10px 10px;
+    border-radius: 0 0 15px 15px;
 }
 
 .conteudo {
@@ -263,7 +263,7 @@ section > p {
     background-color: #98fb988f;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.486);
     padding: 20px;
-    border-radius: 20px;
+    border-radius: 15px;
 }
 
 .iframe-localizacao > iframe {
@@ -294,7 +294,7 @@ section > p {
     background-color: #98fb988f;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.486);
     padding: 20px;
-    border-radius: 20px;
+    border-radius: 15px;
 }
 
 .galeria-container {
@@ -324,15 +324,30 @@ section > p {
     object-fit: cover;
 }
 
+#hospedeiro {
+    margin-top: 35px;
+}
+
+.sobre-hospedeiro {
+    margin-top: 35px;
+    text-align: center;
+    width: 90vw;
+    height: 20vh;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin: auto;
+}
+
 footer {
-    margin-top: 10px;
+    margin-top: 20px;
     background-color: #77503fde;
+    border-radius: 15px 15px 0 0;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.486);
     color: white;
     text-align: center;
     font-family: var(--fonte2);
     font-size: 1em;
     padding: 5px;
-    height: 10vh;
 }
 
 footer a {
