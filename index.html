@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="Imagens-SPACO/Imagens/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/img/Imagens/favicon.ico" type="image/x-icon">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <title>SPAço Paaraíso</title>
     <link rel="stylesheet" href="assets/css/style.css" media="all">
@@ -136,23 +137,76 @@
         <section class="info" id="comodidades">
             <h2>Comodidades:</h2>
             <ul>
-                <li>Wifi livre
-                <li>Espaço Kids
-                <li>Mesa de bilhar
-                <li>Mesa de ping-pong
-                <li>Pescaria liberada
-                <li>Seu PET é bem vindo
-                <li>Churrasqueira coberta
-                <li>Churrasqueira ao ar livre
-                <li>Espaço para volei na grama ou Piscina
+                <div class="list-comodidades">
+                    <span class="material-icons">pool</span>
+                    <li>Pscina privativa</li>      
+                </div>
+                <div class="list-comodidades">
+                    <span class="material-icons"> wifi </span>
+                    <li>Wifi livre
+                </div>
+                <div class="list-comodidades">
+                    <span class="material-icons"> directions_car </span>
+                    <li>Estacionamento</li>
+                </div>
+                <div class="list-comodidades">
+                    <span class="material-icons">pets</span>
+                    <li>Permitido animais</li>
+                </div>
+                <div class="list-comodidades">
+                    <span class="material-icons">tv</span>
+                    <li>TV</li>
+                </div>
+                <div class="list-comodidades">
+                    <span class="material-icons"><span class="material-symbols-outlined">
+                        ac_unit
+                        </span></span>
+                    <li>Ar-condicionado split</li>
+                </div>
+                <div class="list-comodidades">
+                    <span class="material-icons">fireplace</span>
+                    <li>Lareira interna</li>
+                </div>
+                <div class="list-comodidades">
+                    <span class="material-icons">sports_tennis</span>
+                    <li>Mesa de jogos</li>
+                </div>
+                <div class="list-comodidades">
+                    <span class="material-icons">image</span>
+                    <li>Vista para as montanhas</li>
+                </div>
+                <div class="list-comodidades">
+                    <span class="material-icons">bedroom_baby</span>
+                    <li>Livros e brinquedos infantis</li>
+                </div>
+                <div class="list-comodidades">
+                    <span class="material-icons">local_florist</span>
+                    <li>Pátio aberto</li>
+                </div>
+                <div class="list-comodidades">
+                    <span class="material-icons">outdoor_grill</span>
+                    <li>Churrasqueira</li>
+                </div>
             </ul>
-            <br>
+
+            <h2>Serviços Opcionais</h2>
             <ul>
-                <li>Serviços opcionais:
-                <li>Transporte para o seu eventos
-                <li>Massagem relaxante
-                <li>Reiki
-                <li>Barras de Access
+                <div class="list-comodidades">
+                    <span class="material-icons">local_taxi</span>
+                    <li>Transporte para o seu eventos</li>
+                </div>
+                <div class="list-comodidades">
+                    <span class="material-icons">spa</span>
+                    <li>Massagem relaxante</li>
+                </div>
+                <div class="list-comodidades">
+                    <span class="material-icons">self_improvement</span>
+                    <li>Reiki</li>
+                </div>
+                <div class="list-comodidades">
+                    <span class="material-icons">self_improvement</span>
+                    <li>Barra de Acess</li>
+                </div>
             </ul>     
         </section>
 
@@ -176,10 +230,37 @@
 
         <section class="info" id="hospedeiro">
             <h2>Quem vai receber você</h2>
-            <div class="sobre-hospedeiro" id="sobre-hospedeiro">
+            <div class="card-hospedeiro" id="card-hospedeiro">
                 <h2>Rogério</h2>
+                <div class="imagem-hospedeiro">
+                    <img src="assets/img/Imagens/rogério-hospedeiro.jpeg" alt="Imagem Hospedeiro do SPAço">
+                </div>
+                <p>Hospedando desde 2023</p>
             </div>
-            <p>Informações Rogério.</p>
+            <div class="sobre-hospedeiro">
+                <ul>
+                    <div class="infos-hospedeiro">
+                        <span class="material-icons">school</span>
+                        <p>Onde estudei: Colégio Mauá e UNISC</p>
+                    </div>
+                    <div class="infos-hospedeiro">
+                        <span class="material-icons">business_center</span>
+                        <p>Meu trabalho: Terapeuta</p>
+                    </div>
+                    <div class="infos-hospedeiro">
+                        <span class="material-icons">lightbulb</span>
+                        <p>Curiosidade: Fui cantor e sócio da Banda Alto Astral</p>
+                    </div>
+                    <div class="infos-hospedeiro">
+                        <span class="material-icons">hotel_class</span>
+                        <p>Sempre faço pelos hóspedes: Tudo que eu puder para ajudar</p>
+                    </div>
+                    <div class="infos-hospedeiro">
+                        <span class="material-icons">favorite</span>
+                        <p>Curto muito, Natureza, família, amigos, churrasco...</p>
+                    </div>
+                </ul>
+            </div>
         </section>
     </main>
 
