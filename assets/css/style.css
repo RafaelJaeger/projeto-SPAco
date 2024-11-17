@@ -48,7 +48,7 @@ body, html {
 
 header {
     width: 100vw;
-    background-color: var(--cor3);
+    background-color: #77503fde;
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.522);
 }
 
