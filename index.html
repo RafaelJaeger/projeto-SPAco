@@ -8,51 +8,68 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <title>SPAço Paaraíso</title>
-    <link rel="stylesheet" href="Estilos/style.css" media="all">
-    <link rel="stylesheet" href="Estilos/media-querry.css">
+    <link rel="stylesheet" href="assets/css/style.css" media="all">
+    <link rel="stylesheet" href="assets/css/media-querry.css">
 </head>
 <body>
     <div id="bfixo">
-        <a href="https://wa.me/555181195230?text=Olá, tudo bem? Acessei o site do SPAço e gostaria de mais inforamções." target="_blank"><img src="Imagens-SPAco/Imagens/logo-whatsapp.jpg" alt="Link para Whatsapp"></a>
-    </div>
-
-    <!--<section class="link">
-        <a href="https://www.instagram.com/spacopaaraiso/?igshid=MzRlODBiNWFlZA%3D%3D" target="_blank"><img src="Imagens/logo-instagram.jpg" alt="Link para Instragram"></a>
-        <a href="https://www.facebook.com/profile.php?id=100089213714026&mibextid=ZbWKwL" target="_blank"><img src="Imagens/logo-facebook.jpg" alt="Link para Facebook"></a>
-        <a href="https://www.airbnb.com.br/rooms/984675880762143577?check_in=2023-10-06&check_out=2023-10-08&guests=1&adults=9&s=67&unique_share_id=5778dfea-3a79-4976-bf33-f1e185602aa0" target="_blank"><img src="Imagens/logo-airbnb.jpg" alt="Link para Airbnb"></a>
-    </section>
-
-     <section class="mosaico">
-        <img src="Imagens2/SPAçoIMG_00001.jpeg" alt="">
-        <img src="Imagens2/SPAçoIMG_000023.jpeg" alt="">
-        <img src="Imagens2/SPAçoIMG_000019.jpeg" alt="">
-        <img src="Imagens2/SPAçoIMG_00003.jpeg" alt="">
-        <img src="Imagens2/SPAçoIMG_000032.jpeg" alt="">
-    </section> -->
-
-    <div>
-        <h1>LINKS - MENU SUSPENSO</h1>
+        <a href="https://wa.me/555181195230?text=Olá, tudo bem? Acessei o site do SPAço e gostaria de mais inforamções." target="_blank"><img src="assets/img/Imagens/logo-whatsapp.png" alt="Link para Whatsapp"></a>
     </div>
 
     <header>
-        <div class="conteudo">
-            <h1>SPAço Paaraíso</h1>
-        </div>
-        <div class="galeria-header"> 
-                <img src="Imagens-SPAco/Imagens2/SPAçoIMG_000023.jpeg" alt="Pscina do SPAço" class="galeria-itens-header">
-                <img src="Imagens-SPAco/Imagens2/SPAçoIMG_000019.jpeg" alt="Área recreativa do SPAço" class="galeria-itens-header">
-                <img src="Imagens-SPAco/Imagens2/SPAçoIMG_000032.jpeg" alt="Casa no açude do SPAço" class="galeria-itens-header">
-                <img src="Imagens-SPAco/Imagens2/SPAçoIMG_00003.jpeg" alt="Pátio do SPAço" class="galeria-itens-header">
-                <img src="Imagens-SPAco/Imagens2/SPAçoIMG_00001.jpeg" alt="Vista aérea do SPAço" class="galeria-itens-header">
-        </div>
-        <div>
-            <div class="conteudo">
-                <p>Alugúel de casa de férias. <br> Ambiente privativo e exclusivo para sua família e amigos.</p>
-            </div>    
+        <nav class="nav-bar">
+            <div class="nav-logo">
+                    <h1>SPAço Paaraíso</h1>
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#estrutura" class="nav-link">ESTRUTURA</a></li>
+                    <li class="nav-item"><a href="#localizacao" class="nav-link">LOCALIZAÇÃO</a></li>
+                    <li class="nav-item"><a href="#comodidades" class="nav-link">COMODIDADES</a></li>
+                    <li class="nav-item"><a href="#galeria-imagens" class="nav-link">IMAGENS</a></li>
+                    <li class="nav-item"><a href="#hospedeiro" class="nav-link">HOSPEDEIRO</a></li>
+                </ul>
+            </div>
+            <div class="social-links">
+                <a href="https://www.instagram.com/spacopaaraiso/?igshid=MzRlODBiNWFlZA%3D%3D" target="_blank"><img src="assets/img/Imagens/logo-instagram.jpg" alt="Link para Instragram"></a>
+                <a href="https://www.facebook.com/profile.php?id=100089213714026&mibextid=ZbWKwL" target="_blank"><img src="assets/img/Imagens/logo-facebook.jpg" alt="Link para Facebook"></a>
+                <a href="https://www.airbnb.com.br/rooms/984675880762143577?check_in=2023-10-06&check_out=2023-10-08&guests=1&adults=9&s=67&unique_share_id=5778dfea-3a79-4976-bf33-f1e185602aa0" target="_blank"><img src="assets/img/Imagens/logo-airbnb.jpg" alt="Link para Airbnb"></a>
+            </div>
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img src="assets/img/Imagens/menu_white_36dp.svg" class="icon"></button>
+            </div>
+        </nav>
+
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#estrutura" class="nav-link">ESTRUTURA</a></li>
+                    <li class="nav-item"><a href="#localizacao" class="nav-link">LOCALIZAÇÃO</a></li>
+                    <li class="nav-item"><a href="#comodidades" class="nav-link">COMODIDADES</a></li>
+                    <li class="nav-item"><a href="#galeria-imagens" class="nav-link">IMAGENS</a></li>
+                    <li class="nav-item"><a href="#hospedeiro" class="nav-link">HOSPEDEIRO</a></li>
+            </ul>
+            <div class="social-links">
+                <a href="https://www.instagram.com/spacopaaraiso/?igshid=MzRlODBiNWFlZA%3D%3D" target="_blank"><img src="assets/img/Imagens/logo-instagram.jpg" alt="Link para Instragram"></a>
+                <a href="https://www.facebook.com/profile.php?id=100089213714026&mibextid=ZbWKwL" target="_blank"><img src="assets/img/Imagens/logo-facebook.jpg" alt="Link para Facebook"></a>
+                <a href="https://www.airbnb.com.br/rooms/984675880762143577?check_in=2023-10-06&check_out=2023-10-08&guests=1&adults=9&s=67&unique_share_id=5778dfea-3a79-4976-bf33-f1e185602aa0" target="_blank"><img src="assets/img/Imagens/logo-airbnb.jpg" alt="Link para Airbnb"></a>
+            </div>
         </div>
     </header>
     
     <main>
+        <section class="first-page">
+                <div class="galeria-header"> 
+                        <img src="assets/img/Imagens2/SPAçoIMG_000023.jpeg" alt="Pscina do SPAço" class="galeria-itens-header">
+                        <img src="assets/img/Imagens2/SPAçoIMG_000019.jpeg" alt="Área recreativa do SPAço" class="galeria-itens-header">
+                        <img src="assets/img/Imagens2/SPAçoIMG_000032.jpeg" alt="Casa no açude do SPAço" class="galeria-itens-header">
+                        <img src="assets/img/Imagens2/SPAçoIMG_00003.jpeg" alt="Pátio do SPAço" class="galeria-itens-header">
+                        <img src="assets/img/Imagens2/SPAçoIMG_00001.jpeg" alt="Vista aérea do SPAço" class="galeria-itens-header">
+                </div>
+                <div class="conteudo">
+                        <p>Alugúel de casa de férias. <br> Ambiente privativo e exclusivo para sua família e amigos.</p>
+                </div>    
+        </section>
+
         <section class="info" id="estrutura">
             <h2>Estrutura do SPAço</h2>
             <div class="slider">
@@ -63,24 +80,24 @@
                     <input type="radio" name="radio-btn" id="radio4">
 
                     <div class="slide first">
-                            <h1>QUARTOS</h1>
-                            <a href="estrutura.html"><button>SAIBA MAIS</button></a>
-                            <img src="Imagens-SPAco/Imagens2/SPAçoIMG_000026.jpeg" alt="Cama de Casal">
-                    </div>
-                    <div class="slide">
                             <h1>SALA DE ESTAR</h1>
                             <a href="estrutura.html"><button>SAIBA MAIS</button></a>
-                            <img src="Imagens-SPAco/Imagens2/SPAçoIMG_000011.jpeg" alt="">
+                            <img src="assets/img/Imagens2/SPAçoIMG_000011.jpeg" alt="">
+                    </div>
+                    <div class="slide">
+                            <h1>QUARTOS</h1>
+                            <a href="estrutura.html"><button>SAIBA MAIS</button></a>
+                            <img src="assets/img/Imagens2/SPAçoIMG_000026.jpeg" alt="Cama de Casal">
                     </div>
                     <div class="slide">
                             <h1>COZINHA</h1>
                             <a href="estrutura.html"><button>SAIBA MAIS</button></a>
-                            <img src="Imagens-SPAco/Imagens2/SPAçoIMG_00002.jpeg" alt="">
+                            <img src="assets/img/Imagens2/SPAçoIMG_00002.jpeg" alt="">
                     </div>
                     <div class="slide">
                             <h1>BANHEIRO</h1>
                             <a href="estrutura.html"><button>SAIBA MAIS</button></a>
-                            <img src="Imagens-SPAco/Imagens2/SPAçoIMG_000017.jpeg" alt="">
+                            <img src="assets/img/Imagens2/SPAçoIMG_000017.jpeg" alt="">
                     </div>
 
                     <div class="navigation-auto">
@@ -99,40 +116,6 @@
                 </div>
             </div>
         </section>
-
-        <!-- <section class="info" id="format">
-            <h2>Disponível nos seguintes formatos:</h2>
-            <ul>
-                <li>Aluguel de temporada para família ou grupos, com exclusividade.</li>
-                <li>Evento privativo.</li>
-                <li>Aluguel individual diário ou pernoite.</li>
-            </ul>
-        </section> 
-        <div class="imagem" id="img01">
-            <img src="Imagens/SPAço_000016.jpeg" alt="Imagem do Gramado">
-        </div>
-
-
-        <section class="info" id="estr">
-            <h2>Estrutura:</h2>
-            <ul>
-                <li>Piscina</li>
-                <li>Lareira</li>
-                <li>Quiosque</li>
-                <li>Terreno cercado</li>
-                <li>Cozinha equipada</li>
-                <li>Churrasqueira coberta</li>
-                <li>Churrasqueira ao ar livre</li>
-                <li>2 banheiros com chuveiro</li>
-                <li>Garagem coberta para 4 carros</li>
-                <li>Quarto privativo contendo 1 cama de casal</li>
-                <li>Quarto contendo 1 cama de casal e 6 camas de solteiro</li>
-            </ul>
-        </section>
-        <div class="imagem" id="img02">
-            <img src="Imagens/SPAço_000047.jpeg" alt="Camas de Solteiro">
-        </div>  -->
-
 
         <Section class="info" id="localizacao">
             <h2>Localização:</h2>
@@ -172,7 +155,6 @@
             </ul>     
         </section>
 
-
         <section class="info" id="galeria-imagens">
             <h2>Galeria de Imagens do SPAço:</h2>
             <div class="galeria-container">
@@ -204,6 +186,7 @@
         <p>Agendamento pelo Whatsapp: <a href="https://wa.me/555181195230?text=Olá, tudo bem? Acessei o site do SPAço e gostaria de mais informações." target="_blank">+55 51 8119-5230</a> <br> ou Airbnb: <a href="https://www.airbnb.com.br/rooms/984675880762143577?check_in=2023-10-06&check_out=2023-10-08&guests=1&adults=9&s=67&unique_share_id=5778dfea-3a79-4976-bf33-f1e185602aa0">Chácara com quiosque e piscina</a></p>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="assets/js/slider.js"></script>
+    <script src="assets/js/nav-menu.js"></script>
 </body>
 </html>
