@@ -143,17 +143,18 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     padding: 4vh;
     gap: 1vw;
 }
 
 .galeria-itens-header {
+    border-radius: 10px;
     width: 35vw;
-    height: 15vh;
+    height: 20vh;
     border: 2px solid white;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.35);
-    flex-grow: 0.5;
+    flex-grow: 1;
 }
 
 section > h2 {
