@@ -4,6 +4,10 @@
 }
 
 body {
+    background-color: white;
+}
+
+main {
     background-color: #98fb98a4;
 }
 
@@ -16,8 +20,8 @@ h1 {
     color: black;
     border: 1px solid black;
     background-color: white;
-    bottom: 10px;
-    right: 10px;
+    bottom: 15px;
+    right: 15px;
     position: fixed;
     text-decoration: none;
     display: flex;
@@ -52,7 +56,7 @@ h1 {
 .imagens-area {
     display: flex;
     flex-wrap: wrap;
-    width: 100vw;
+    width: 92vw;
     gap: 1vw;
 }
 
@@ -65,9 +69,20 @@ h1 {
 }
 
 @media screen and (min-width: 850px) {
+    main {
+        width: 80vw;
+        display: block;
+        margin: 0 auto;
+        box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.705);
+    }
+
+    .imagens-area {
+        max-width: 75vw;
+    }
+
     .imagens-area img {
-        width: 250px;
-        height: 250px;
+        width: 200px;
+        height: 200px;
     }
 
     #btn-voltar a{
@@ -76,5 +91,12 @@ h1 {
 
     #btn-voltar a:hover{
         transform: scale(1.3);
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .imagens-area img {
+        width: 250px;
+        height: 250px;
     }
 }

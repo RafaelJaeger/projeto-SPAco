@@ -53,44 +53,39 @@ Grandes telas: 1201px +
     }
 }
 
-@media screen and (min-width: 600px) and (max-width: 870px){
-    .conteudo {
-        background-color: rgba(0, 0, 0, 0.432);
-    }
-
-    .conteudo > h1 {
-        font-size: 5em;
-    }
-    
+@media screen and (min-width: 600px) and (max-width: 850px){ 
     .conteudo > p {
-        font-size: 2em;
-        padding-left: 70px;
-        padding-right: 70px;
+        font-size: 1.3em;
     }
 
-    #img02 > img {
-        height: 70vh;
+    .galeria-itens-header {
+        width: 25vw;
+        height: 25vh;
     }
 }
 
-@media screen and (min-width: 871px) and (max-width: 991px){ 
-
-    .conteudo {
-        background-color: rgba(0, 0, 0, 0.432);
-    }
-
-    .conteudo > h1 {
-        font-size: 5em;
+@media screen and (min-width: 851px) and (max-width: 991px){
+    .galeria-itens-header {
+        width: 20vw;
+        height: 250px;
     }
     
     .conteudo > p {
-        font-size: 2em;
-        padding-left: 70px;
-        padding-right: 70px;
+        font-size: 1.5em;
     }
 
-    #img02 > img {
-        height: 70vh;
+    .galeria-itens-header {
+        width: 25vw;
+        height: 25vh;
+    }
+
+    #galeria-hospedeiro {
+        display: flex;
+        align-items: center;
+    }
+
+    .card-hospedeiro {
+        margin: 0;
     }
 }
 
@@ -100,25 +95,49 @@ Grandes telas: 1201px +
         width: 76vw;
         display: block;
         margin: 0 auto;
-        box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.705);
+        box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.705);
     }
 
-    .container {
-        width: 76vw;
+    .galeria-itens-header {
+        width: 20vw;
+        height: 250px;
     }
 
-    .conteudo {
-        background-color: rgba(0, 0, 0, 0.432);
+    .slider {
+        width: 70vw;
     }
 
-    .conteudo > h1 {
-        font-size: 7.5em;
+    .slide > img {
+        width: 70vw;
+        height: 50vh;
+        object-fit: cover;
+    }
+
+    .manual-navigation {
+        position: absolute;
+        width: 70vw;
+    }
+
+    .navigation-auto {
+        position: absolute;
+        width: 70vw;
+    }
+    
+    .galeria-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 2vw;
+        padding: 0 4vw;
+    }
+    
+    .galeria-itens {
+        width: 30vw;
+        height: 250px;
     }
     
     .conteudo > p {
-        font-size: 2.5em;
-        padding-left: 100px;
-        padding-right: 100px;
+        font-size: 1.5em;
     }
 
     #bfixo img {
@@ -127,7 +146,6 @@ Grandes telas: 1201px +
         right: 7px;
         margin: 2px;
         width: 70px;
-        border-radius: 50%;
         box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.822);
     }
     
@@ -135,20 +153,72 @@ Grandes telas: 1201px +
         width: 80px;
         box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.822);
     }
+}
 
-    .texto {
-        font-size: 1.2em;
+@media screen and (min-width: 1050px) {
+    .galeria-itens-header {
+        width: 20vw;
+        height: 300px;
     }
 
-    #img01 > img {
-        width: 75vw;
+    #galeria-hospedeiro {
+        display: flex;
+        align-items: center;
     }
 
-    #img02 > img {
-        width: 60vw;
+    .card-hospedeiro {
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .galeria-itens-header {
+        width: 20vw;
+        height: 300px;
+        flex-grow: 0.45;
     }
 
-    #img03 > img {
-        width: 75vw;
+    .slider {
+        width: 70vw;
+        height: 60vh;
+    }
+
+    .slide > img {
+        width: 70vw;
+        height: 60vh;
+        object-fit: cover;
+    }
+
+    .slide h1 {
+        margin: calc(60vh / 2.4) 45px;
+        position: absolute;
+        transform: scale(1.4);
+    }
+
+    .slide button {
+        margin: calc(60vh / 2) 45px;
+        position: absolute;
+        transform: scale(1.6);
+    }
+
+    .manual-navigation {
+        margin-top: calc(60vh - 410px);
+    }
+
+    .navigation-auto {
+        margin-top: calc(60vh - 25px);
+    }
+
+    .galeria-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 2vw;
+        padding: 0 4vw;
+    }
+    
+    .galeria-itens {
+        width: 20vw;
+        height: 300px;
     }
 }
